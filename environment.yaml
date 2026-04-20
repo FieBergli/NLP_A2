@@ -1,0 +1,23 @@
+name: nlp_a2
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - nltk
+  - spacy
+  - tqdm
+  - pip:
+      - transformers
+      - datasets
+      - sentencepiece
+      - torch
+      - ipykernel
